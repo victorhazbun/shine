@@ -1,3 +1,5 @@
+/*jshint multistr: true */
+
 'use strict';
 require('application.css');
 require('bootstrap/dist/css/bootstrap.css');
