@@ -25,5 +25,9 @@
     "webpack-dev-middleware": "1.7.0",
     "webpack-dev-server": "^1.16.2",
     "zone.js": "^0.6"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14",
+    "testdouble": "^1.6.0"
   }
 }
