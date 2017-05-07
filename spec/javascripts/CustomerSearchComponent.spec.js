@@ -1,5 +1,12 @@
-var CustomerSearchComponent =
-      require("../../webpack/CustomerSearchComponent");
+var proxyquire = require("proxyquire");
+var CustomerSearchComponent = proxyquire(
+  "../../webpack/CustomerSearchComponent",
+  {
+    "./CustomerSearchComponent.html": {
+      "@noCallThru": "true"
+    }
+  }
+);
 var td = require("testdouble");
 
 var component = null;
